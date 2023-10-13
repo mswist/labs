@@ -1,0 +1,30 @@
+/* import google roboto font */
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root, body {
+    height: 100dvh;
+    width: 100dvw;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+    padding: 10px;
+}
+
+header, footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
