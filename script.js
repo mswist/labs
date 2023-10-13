@@ -1,4 +1,5 @@
-const GIT_URL = `https://api.github.com/repos/mswist/labs/contents/${window.location.pathname}`
+
+const GIT_URL = `https://api.github.com/repos/mswist/labs/contents${window.location.pathname}`
 
 getDirectoriesFromGit(GIT_URL)
   .then(resp => { listDirectories(resp) })
